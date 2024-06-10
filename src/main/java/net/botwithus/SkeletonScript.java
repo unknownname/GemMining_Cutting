@@ -54,7 +54,7 @@ public class SkeletonScript extends LoopingScript {
 
     private Random random = new Random();
     private Pattern gembagpattern = Regex.getPatternForContainingOneOf("Gem bag", "Gem bag (upgraded)");
-    private Area Alkharidmine = new Area.Rectangular(new Coordinate(3301,3284,0), new Coordinate(3306,3274,0));
+    private Area Alkharidmine = new Area.Rectangular(new Coordinate(3297, 3287, 0), new Coordinate(3302, 3282, 0));
     private Area AlkharidCity = new Area.Rectangular(new Coordinate(3273,3177,0), new Coordinate(3277,3185,0));
     private Area AlKharidBank = new Area.Rectangular(new Coordinate(3274,3168,0), new Coordinate(3267,3171,0));
     private Area wararea = new Area.Rectangular(new Coordinate(3295,10132,0), new Coordinate(3301,10128,0));
